@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+*{
+    margin:0;
+    padding-top: 10px;
+    border:0;
+}
+
+body{
+    font-family: "Lato",sans-serif;
+    padding-top: 10px;
+}
+
+
+#menu {
+    padding-top: 10px;
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 10px;
+}
+
+#heading {
+    font-family: "Oswald",sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    color: green;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: grey;
+    background-color: #fafafa;
+    
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #777777;
+}
+
+
+.active{
+    border-bottom: 1px solid #777777;
+}
+
+.t-text {
+    position: relative;
+    text-align: right;
+    float: right;
+}
+
+.b-text {
+    position: relative;
+    text-align: right;
+    float: right;
+}
+.v-text {
+    position: relative;
+    text-align: right;
+    float: right;
+}
+
+.wrapper {
+    position: relative;
+    top: 50px;
+}
+
+
+h3 {
+    position: inherit;
+    font-family: "Oswald",sans-serif;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: -0.6rem;
+    font-size: 50px;
+}
+
+p {
+    position: relative;
+    font-family: "Lato",sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 2em;
+    width: auto;
+}
+
+
+img {
+    position: relative;
+    width: 100%;
+    float: left;
+    right: 0px;
+}
+
+
+#photo {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    font-size: 0px;
+}
+
+#gmap_canvas {
+    position: relative;
+    top: 50px;
+}

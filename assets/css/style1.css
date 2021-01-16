@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+* {
+    padding: 2px;
+}
+
+body{
+    font-family: "Lato",sans-serif;
+    padding-top: 10px;
+}
+
+
+#menu {
+    padding-top: 38px;
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+
+header {
+    position: relative;
+}
+
+#heading {
+    font-family: "Oswald",sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: left;
+    color: green;
+    float: left;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: grey;
+    background-color: #fafafa;
+    
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #777777;
+}
+
+
+.active{
+    border-bottom: 1px solid #777777;
+}
+
+.mapouter {
+    width: 100%;
+}
+
+#gmap_canvas {
+    position: relative;
+    width: 100%;
+}
+
+.form-section {
+    clear: left;
+    background-image: url(/assets/images/transfagarasan-main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 100%;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.send-email {
+    color:#fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    height: 800px;
+    left: 0px;
+    padding: 40px;
+    max-width: 400px;
+    
+}
+
+.send-email h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    margin: 5px 0 20px 0;
+
+    border-radius: 2px;
+    
+}
+
+.text-submit:hover{
+    border-color: green;
+}
+
+.submit-email {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: green;
+    color: #fafafa;
+    display: block;
+}
+
+.submit-email:hover {
+    background-color: lightgreen;
+    color: skyblue;
+}

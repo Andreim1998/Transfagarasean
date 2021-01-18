@@ -1,26 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-* {
-    padding: 2px;
+*{
+    margin:1px;
+    padding-top: 10px;
+    border:0;
+    padding-right: 3px;
+    padding-left: 3px;
 }
 
 body{
     font-family: "Lato",sans-serif;
-    padding-top: 10px;
 }
 
-
-#menu {
-    padding-top: 38px;
-    font-size: 100%;
-    list-style-type: none;
-    letter-spacing: 10px;
-    padding-top: 10px;
-}
-
-header {
-    position: relative;
-}
+/*---------------- Heading --------------*/
 
 #heading {
     font-family: "Oswald",sans-serif;
@@ -30,6 +22,17 @@ header {
     color: green;
     float: left;
 }
+
+/*-------------------- Navigation bar------------- */
+
+#menu {
+    padding-top: 38px;
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+
 
 #menu li {
     float: right;
@@ -53,14 +56,7 @@ header {
     border-bottom: 1px solid #777777;
 }
 
-.mapouter {
-    width: 100%;
-}
-
-#gmap_canvas {
-    position: relative;
-    width: 100%;
-}
+/*---------------- Form Section -------------*/
 
 .form-section {
     clear: left;
@@ -119,4 +115,16 @@ header {
 .submit-email:hover {
     background-color: lightgreen;
     color: skyblue;
+}
+
+
+/* ---------- Footer ------- */
+
+footer.mapouter {
+    position: relative;
+    top: 3px;
+}
+
+iframe {
+    width: 100%;
 }

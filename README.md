@@ -1,45 +1,63 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welcome to Transfagarasan 
 
-Welcome Andreim1998,
+## I hope you are ready to discover an amazing place to visit!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+### If I got your attention and you are intrested then don't miss this out !!
 
-## Gitpod Reminders
+---
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Interface
 
-`python3 -m http.server`
+### This website is created for the purpose to inform and attract people across the world to visit the beauty of Transfagarasan.
 
-A blue button should appear to click: *Make Public*,
+---
 
-Another blue button should appear to click: *Open Browser*.
+# Features!
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### 1. Navigation bar: 
+* This allows the user to access other pages without going every time to the top and slect the pages.
+* The nav bar is sticked to the top so its easier to access by the user.
+### 2. Galery section:
+* This gives the user a better look at Transfagarasan and its places.
+### 3. Form section :
+* This was created for the user to contact if he needs to book a trip or needs more info about the place.
+* By completing the form i will recive an email with the needs of the user.
 
-A blue button should appear to click: *Make Public*,
+---
 
-Another blue button should appear to click: *Open Browser*.
+# Technologies Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+For the creation of this website i used the next technologies:
+* HTML/HTML5
+* CSS
+* BOOTSTRAP
 
-## Updates Since The Instructional Video
+---
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Testing
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+In this section i would like to talk about some testing i have done with the next:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+1. Navigation bar:
+* Check every menu item to verify that is changing pages.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+2. Contact form:
+* Tried to submit without email address to verify if the required message comes up.
+ 
+ ## Every section was tested in mobile size and diffrent desktop sizes.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ ---
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ # Deployment
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ This website was Deployed with the help of gihub.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+ ---
 
---------
+ # Credits
 
-Happy coding!
+ 1. The text from div t.text was copied from https://en.wikipedia.org/wiki/Transf%C4%83g%C4%83r%C4%83%C8%99an
+ 2. The text from div b.text was copied from https://theculturetrip.com/europe/romania/articles/everything-need-know-explore-balea-lake/
+ 3. The text from div v.text was copied from https://www.crafted-tours-romania.com/vidraru-dam-lake.html
+
+#### The images from galery were taken from https://www.google.com/imghp?hl=en.

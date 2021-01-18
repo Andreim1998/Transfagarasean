@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h2 id="heading" class="sticky-top">Book a trip!</h2>
+        <h2 id="heading">Book a trip!</h2>
         <nav>
             <ul id="menu" class="fixed-top">
                 <li class="nav-item dropdown">
@@ -32,11 +32,12 @@
 
 
     <section class="form-section container-fluid">
-        <form class="send-email">
-            <h2>If you would like to book a trip in Transfagarasan or you would like to know more about it, don't hesitate to contact me!</h2>
+        <form method="post" action="https://mail.google.com/mail" target="_blank" class="send-email">
+            <h2>If you would like to book a trip in Transfagarasan or you would like to know more about it, don't
+                hesitate to contact me!</h2>
             <div class="container-fluid mb-6">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" required>
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
@@ -47,13 +48,11 @@
         </form>
     </section>
 
-
-
-    <div class="mapouter">
-        <div class="container-fluid gmap_canvas"><iframe id="gmap_canvas"
-                src="https://maps.google.com/maps?q=transfagarasan&t=k&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-        </div>
-    </div>
+    <footer class="mapouter">
+        <iframe id="gmap_canvas"
+            src="https://maps.google.com/maps?q=transfagarasan&t=k&z=13&ie=UTF8&iwloc=&output=embed">
+        </iframe>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

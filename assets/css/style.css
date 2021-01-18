@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
 *{
-    margin:1px;
     padding-top: 10px;
     border:0;
     padding-right: 3px;
@@ -10,16 +9,9 @@
 
 body{
     font-family: "Lato",sans-serif;
-    padding-top: 10px;
 }
 
-
-#menu {
-    padding-top: 10px;
-    font-size: 100%;
-    list-style-type: none;
-    letter-spacing: 10px;
-}
+/*------------ Heading------------*/
 
 #heading {
     font-family: "Oswald",sans-serif;
@@ -29,6 +21,17 @@ body{
     position: relative;
     top: 60px;
     color: green;
+}
+
+
+/*------------------- Navigation Bar --------------*/
+
+
+#menu {
+    padding-top: 10px;
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 10px;
 }
 
 #menu li {
@@ -52,6 +55,8 @@ body{
 .active{
     border-bottom: 1px solid #777777;
 }
+
+/* --------------- Wrapper --------------*/
 
 .t-text {
     position: relative;
@@ -95,6 +100,8 @@ p {
     width: auto;
 }
 
+
+/*------------ Image ----------------*/
 
 img {
     position: relative;
